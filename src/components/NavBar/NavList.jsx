@@ -12,7 +12,7 @@ function NavList(){
                 item === "Industries"
               ) {
                 return (
-                  <li className="p-4 flex items-center gap-1" key={item}>
+                  <li className="p-2 flex items-center gap-1" key={item}>
                     <a href="#">{item}</a>
                     <ChevronDown size={18} strokeWidth={1} />
                   </li>
@@ -20,7 +20,7 @@ function NavList(){
               }
 
               return (
-                <li className="p-4" key={item}>
+                <li className="p-2" key={item}>
                   <a href="#">{item}</a>
                 </li>
               );
