@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar";
-import getJsonData from "./GetJsonData";
+import GetJsonData from "./GetJsonData";
 
 
 function App() {
@@ -8,9 +8,7 @@ function App() {
       <main>
       <NavBar />
       <div className="">
-      {
-        console.log(getJsonData)
-      }
+      <GetJsonData/>
       </div>
       </main>
     </div>

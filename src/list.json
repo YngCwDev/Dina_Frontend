@@ -1,26 +1,114 @@
 {
-      "products": {
-        "Electrical Materials": ["Circuit Breakers", "Transformers", "Wiring and Cables", "Lighting Systems", "Switchgear"],
-        "Generators and Batteries": ["Portable Generators", "Standby Generators", "Deep Cycle Batteries", "UPS Systems", "Battery Chargers"],
-        "Personal Protective Equipment (PPE)": ["Helmets", "Safety Glasses", "Gloves", "High-Visibility Vests", "Respirators"],
-        "Oils and Lubricants": ["Engine Oil", "Hydraulic Oil", "Grease", "Transmission Fluid", "Coolants"],
-        "Spare Parts": ["Filters", "Belts", "Bearings", "Pumps", "Seals"]
-      },
-      "services": {
-        "Heavy Machinery Rent": ["Excavators", "Bulldozers", "Cranes", "Loaders", "Dump Trucks"],
-        "Technical Consulting": ["Project Assessment", "Operational Efficiency", "Energy Optimization", "Safety Consulting", "Equipment Selection"],
-        "Equipment Maintenance": ["Preventive Maintenance", "Repair Services", "Condition Monitoring", "Spare Parts Management", "Technical Support"],
-        "Safety Training": ["Workplace Safety", "Hazard Identification", "Personal Protective Equipment (PPE) Training", "Emergency Preparedness", "Accident Investigation"],
-        "Customer Support": ["24/7 Assistance", "On-site Support", "Remote Diagnostics", "Warranty Services", "Product Information"]
-      },
-      "industries": {
-        "Industrial": ["Manufacturing", "Processing Plants", "Heavy Equipment", "Automation", "Maintenance"],
-        "Mining": ["Open-pit Mining", "Underground Mining", "Mineral Processing", "Exploration", "Equipment Maintenance"],
-        "Construction": ["Civil Construction", "Building Infrastructure", "Heavy Construction", "Project Management", "Material Supply"],
-        "Energy": ["Power Generation", "Renewable Energy", "Electrical Infrastructure", "Energy Storage", "Grid Solutions"],
-        "Healthcare": ["Medical Equipment", "Laboratory Supplies", "Safety Equipment", "Facilities Maintenance", "Power Solutions"],
-        "Cleaning": ["Industrial Cleaning", "Facility Sanitation", "Chemical Cleaning", "Janitorial Supplies", "Waste Management"]
-      }
+  "products": {
+    "Electrical Materials": [
+      "Circuit Breakers",
+      "Transformers",
+      "Wiring and Cables",
+      "Lighting Systems",
+      "Switchgear"
+    ],
+    "Generators and Batteries": [
+      "Portable Generators",
+      "Standby Generators",
+      "Deep Cycle Batteries",
+      "UPS Systems",
+      "Battery Chargers"
+    ],
+    "Personal Protective Equipment (PPE)": [
+      "Helmets",
+      "Safety Glasses",
+      "Gloves",
+      "High-Visibility Vests",
+      "Respirators"
+    ],
+    "Oils and Lubricants": [
+      "Engine Oil",
+      "Hydraulic Oil",
+      "Grease",
+      "Transmission Fluid",
+      "Coolants"
+    ],
+    "Spare Parts": ["Filters", "Belts", "Bearings", "Pumps", "Seals"]
+  },
+  "services": {
+    "Heavy Machinery Rent": [
+      "Excavators",
+      "Bulldozers",
+      "Cranes",
+      "Loaders",
+      "Dump Trucks"
+    ],
+    "Technical Consulting": [
+      "Project Assessment",
+      "Operational Efficiency",
+      "Energy Optimization",
+      "Safety Consulting",
+      "Equipment Selection"
+    ],
+    "Equipment Maintenance": [
+      "Preventive Maintenance",
+      "Repair Services",
+      "Condition Monitoring",
+      "Spare Parts Management",
+      "Technical Support"
+    ],
+    "Safety Training": [
+      "Workplace Safety",
+      "Hazard Identification",
+      "Personal Protective Equipment (PPE) Training",
+      "Emergency Preparedness",
+      "Accident Investigation"
+    ],
+    "Customer Support": [
+      "24/7 Assistance",
+      "On-site Support",
+      "Remote Diagnostics",
+      "Warranty Services",
+      "Product Information"
+    ]
+  },
+  "industries": {
+    "Industrial": [
+      "Manufacturing",
+      "Processing Plants",
+      "Heavy Equipment",
+      "Automation",
+      "Maintenance"
+    ],
+    "Mining": [
+      "Open-pit Mining",
+      "Underground Mining",
+      "Mineral Processing",
+      "Exploration",
+      "Equipment Maintenance"
+    ],
+    "Construction": [
+      "Civil Construction",
+      "Building Infrastructure",
+      "Heavy Construction",
+      "Project Management",
+      "Material Supply"
+    ],
+    "Energy": [
+      "Power Generation",
+      "Renewable Energy",
+      "Electrical Infrastructure",
+      "Energy Storage",
+      "Grid Solutions"
+    ],
+    "Healthcare": [
+      "Medical Equipment",
+      "Laboratory Supplies",
+      "Safety Equipment",
+      "Facilities Maintenance",
+      "Power Solutions"
+    ],
+    "Cleaning": [
+      "Industrial Cleaning",
+      "Facility Sanitation",
+      "Chemical Cleaning",
+      "Janitorial Supplies",
+      "Waste Management"
+    ]
+  }
 }
-
-  

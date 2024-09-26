@@ -1,8 +1,18 @@
-import jsonData from './list.json';
+import jsonData from "./list.json";
 
-function getJsonData(){
-    return jsonData.map((item)=>item)
+function GetJsonData() {
+  const products = (data = jsonData.products) => {
+    for (const [key, value] of Object.entries(data)) {
+      return (key, value)
+    }
+  };
+  const industries = jsonData.industries;
+  const services = jsonData.services;
+  return (
+    <>
+      <div>{products()}</div>
+    </>
+  );
 }
 
-
-export default getJsonData;
+export default GetJsonData;
