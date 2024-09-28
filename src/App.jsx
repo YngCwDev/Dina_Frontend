@@ -4,7 +4,10 @@ function App() {
   return (
     <div>
       <main>
-        <NavBar />
+        <header>
+          {" "}
+          <NavBar />
+        </header>
       </main>
     </div>
   );
