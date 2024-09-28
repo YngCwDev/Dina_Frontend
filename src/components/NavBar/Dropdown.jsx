@@ -1,11 +1,16 @@
+import { useState } from "react";
 import data from "./list.json";
 
-function Dropdown(){
-    const products = data.products;
-    const services = data.services;
-    const industries = data.industries;
-    return (
-      <>
+function Dropdown({navoption}) {
+  const products = data.products;
+  const services = data.services;
+  const industries = data.industries;
+  
+  return (
+    <><div  className="flex flex-col gap-8 justify-center items-center">
+
+    
+      {navoption === "Products" ? (
         <div className="flex flex-row gap-4  bg-red-100 p-10 w-full justify-center items-center space-x-8">
           {Object.keys(products).map((item) => {
             return (
@@ -14,7 +19,7 @@ function Dropdown(){
                 <ul className="flex flex-col gap-4">
                   {products[item].map((item) => {
                     return (
-                      <li className="text-[14px]" key={item}>
+                      <li className="text-[14px]"  key={item}>
                         <a href="#">{item}</a>
                       </li>
                     );
@@ -24,6 +29,8 @@ function Dropdown(){
             );
           })}
         </div>
+      ) : null}
+      {navoption === "Industries" ? (
         <div className="flex flex-row gap-4  bg-red-100 p-10 w-full justify-center items-center space-x-8">
           {Object.keys(services).map((item) => {
             return (
@@ -42,6 +49,8 @@ function Dropdown(){
             );
           })}
         </div>
+      ) : null}
+      {navoption === "Services" ? (
         <div className="flex flex-row gap-4  bg-red-100 p-10 w-full justify-center items-center space-x-8">
           {Object.keys(industries).map((item) => {
             return (
@@ -60,8 +69,10 @@ function Dropdown(){
             );
           })}
         </div>
-      </>
-    );
+      ) : null}
+      </div>
+    </>
+  );
 }
 
 export default Dropdown;

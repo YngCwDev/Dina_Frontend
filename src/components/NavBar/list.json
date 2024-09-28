@@ -14,13 +14,7 @@
       "UPS Systems",
       "Battery Chargers"
     ],
-    "Personal Protective Equipment (PPE)": [
-      "Helmets",
-      "Safety Glasses",
-      "Gloves",
-      "High-Visibility Vests",
-      "Respirators"
-    ],
+    
     "Oils and Lubricants": [
       "Engine Oil",
       "Hydraulic Oil",
@@ -28,7 +22,14 @@
       "Transmission Fluid",
       "Coolants"
     ],
-    "Spare Parts": ["Filters", "Belts", "Bearings", "Pumps", "Seals"]
+    "Spare Parts": ["Filters", "Belts", "Bearings", "Pumps", "Seals"],
+    "Personal Protective Equipment (PPE)": [
+      "Helmets",
+      "Safety Glasses",
+      "Gloves",
+      "High-Visibility Vests",
+      "Respirators"
+    ]
   },
   "services": {
     "Heavy Machinery Rent": [
