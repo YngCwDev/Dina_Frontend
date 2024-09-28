@@ -1,0 +1,69 @@
+const products = data.products;
+  const industries = data.industries;
+  const services = data.services;
+  return (
+    <>
+      <div>
+        {Object.keys(products).map((product) => {
+          return (
+            <>
+              <div className="flex flex-col">
+                {products[product].forEach((item) => {
+                  return (
+                    <div>
+                      <ul className="">
+                        <li>{item}</li>
+                      </ul>
+                    </div>
+                  );
+                })}
+              </div>
+            </>
+          );
+        })}
+      </div>
+      <br />
+      <div>
+        {Object.keys(industries).map((industry) => {
+          return (
+            <>
+              <div>
+                {industry} :{" "}
+                {industries[industry].map((item) => {
+                  return (
+                    <>
+                      <ul>
+                        <li>{item}</li>
+                      </ul>
+                    </>
+                  );
+                })}
+              </div>
+            </>
+          );
+        })}
+      </div>
+      <br />
+      <div>
+        {Object.keys(services).map((service) => {
+          return (
+            <>
+              <div>
+                {service} :{" "}
+                {services[service].map((item) => {
+                  return (
+                    <>
+                      <ul>
+                        <li>{item}</li>
+                      </ul>
+                    </>
+                  );
+                })}
+              </div>
+            </>
+          );
+        })}
+      </div>
+      <br />
+    </>
+  );
