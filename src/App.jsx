@@ -1,4 +1,4 @@
-import NavBar from "./NavBar";
+import NavBar from "./NavBar/NavBar";
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
           {" "}
           <NavBar />{" "}
         </nav>
-        <header></header>
+        <header>
+        </header>
         <section></section>
         <section></section>
         <section></section>
