@@ -9,7 +9,7 @@ function Discover() {
             Discover our products and services
           </h2>
           <div className="h-[2px] w-[10%] my-4 bg-black  mx-auto"></div>
-          <p className="text-[1rem] py-4 px-[20%]">
+          <p className="text-[1rem] py-4 md:px-[20%]">
             We offer a wide range of premium products designed to meet the needs
             of various industries. Explore our product categories to find the
             right solution for your business:
@@ -26,7 +26,7 @@ const Square = () => {
     <div className="flex gap-4 flex-wrap justify-center">
       {grid.map((items) => {
         return (
-          <div className="md:h-[365px] h-[370px] md:w-[400px] w-[370px] bg-gray-200">
+          <div className="md:h-[365px] h-[345px] md:w-[400px] w-[370px] bg-gray-200">
             <div className="flex flex-col justify-center items-start bg-gray-200 h-full w-full">
               <a href={items.link}>
                 <div>

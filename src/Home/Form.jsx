@@ -1,6 +1,6 @@
 function Form() {
   return (
-    <div class="bg-white flex md:flex-row flex-wrap justify-center items-center md:gap-24 gap-4 py-[10%] px-[10%]">
+    <div class="bg-white flex md:flex-row flex-wrap justify-center items-center md:gap-24 gap-4 py-[10%] md:px-[10%]">
       <div class="md:w-[30%] w-full md:text-justify text-center">
         <h2 class="text-[2.5rem] font-bold mb-5 text-red-800">
           Get a Free Quote Now!

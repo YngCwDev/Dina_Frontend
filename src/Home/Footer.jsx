@@ -1,14 +1,15 @@
-import { div } from "framer-motion/client";
+import LOGO from "../assets/LOGO-w.svg";
+import { Instagram, Facebook, Linkedin, Twitter } from "lucide-react";
 
 function Footer() {
   return (
-    <div>
-      <div className="text-white p-[5%] md:px-[20%] flex flex-col">
-        <div className="flex justify-between flex-row flex-wrap">
-          <div className="flex flex-col md:items-end pt-4">
-            <img className="md:w-[200px] w-[100px]" src="img/LOGO-w.svg" alt="" />
+    <div className="md:px-[10%]">
+      <div className="text-white p-[5%]  flex  justify-center ">
+        <div className="flex justify-center  md:flex-nowrap flex-wrap gap-44">
+          <div className="flex flex-col  pt-4 md:order-1 order-3">
+            <img className="md:w-[200px] w-[100px]" src={LOGO} alt="" />
             <ul className="">
-              <li className="font-bold text-[1rem] my-4 pr-8">
+              <li className="font-bold text-[1rem] my-4 ">
                 <a href="">COMPANY</a>
               </li>
               <li className="hover:text-red-800">
@@ -25,7 +26,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col pt-4">
+          <div className="flex flex-col pt-4 md:order-2 order-1">
             <ul className="">
               <li className="font-bold text-[1rem]">
                 <a href="">INDUSTRIES</a>
@@ -52,7 +53,8 @@ function Footer() {
               </ul>
             </ul>
           </div>
-          <div className="flex flex-col items-end pt-4">
+          <div className="w-full h-[1px] md:hidden my-4 bg-white"></div>
+          <div className="flex flex-col items-end pt-4 md:order-3 order-2">
             <ul className="">
               <li className="font-bold text-[1rem]">
                 <a href="">SERVICES</a>
@@ -73,7 +75,7 @@ function Footer() {
               </ul>
             </ul>
           </div>
-          <div className="flex flex-col items-end pt-4">
+          <div className="flex flex-col items-end pt-4 md:px-0 px-8 md:order-4 order-4">
             <ul className="flex flex-col gap-2">
               <li className="font-bold text-[1rem]">
                 <a href="">SOCIAL MEDIA</a>
@@ -81,22 +83,22 @@ function Footer() {
               <ul className="flex gap-4 mt-4">
                 <li className="hover:text-red-800">
                   <a href="">
-                    <ion-icon className="text-2xl" name="logo-facebook"></ion-icon>
+                    <Facebook />
                   </a>
                 </li>
                 <li className="hover:text-red-800">
                   <a href="">
-                    <ion-icon className="text-2xl" name="logo-twitter"></ion-icon>
+                    <Twitter />
                   </a>
                 </li>
                 <li className="hover:text-red-800">
                   <a href="">
-                    <ion-icon className="text-2xl" name="logo-linkedin"></ion-icon>
+                    <Linkedin />
                   </a>
                 </li>
                 <li className="hover:text-red-800">
                   <a href="">
-                    <ion-icon className="text-2xl" name="logo-instagram"></ion-icon>
+                    <Instagram />
                   </a>
                 </li>
               </ul>
@@ -105,13 +107,11 @@ function Footer() {
               </li>
             </ul>
           </div>
-
-          <div></div>
         </div>
       </div>
-      <p className="flex justify-self-end">
-        © 2024 Dina Holding. All rights reserved.
-      </p>
+      <div className="flex md:static justify-center">
+        <p className="text-white  text-[14px]">© 2024 Dina Holding. All rights reserved.</p>
+      </div>
     </div>
   );
 }

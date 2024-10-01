@@ -5,7 +5,7 @@ import logo from "../assets/LOGO.svg";
 const MainNav = ({ SetState, isMobile, handleClick }) => {
   const MenuButton = (
     <button>
-      <Menu onClick={handleClick} strokeWidth={2} size={40} />
+      <Menu onClick={handleClick} strokeWidth={2} size={35} />
     </button>
   );
   return (
