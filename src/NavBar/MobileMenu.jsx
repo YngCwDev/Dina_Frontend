@@ -5,9 +5,9 @@ const MobileMenu = ({ toggle }) => {
 
     const Menu = ()=>{
         return(
-            <div>
-                <div className="bg-red-100">Hello</div>
-            </div>
+            <>
+                <div className="bg-red-100 z-100 fixed w-full">Hello</div>
+            </>
         )
     }
 

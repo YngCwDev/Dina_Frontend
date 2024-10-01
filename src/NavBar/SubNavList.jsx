@@ -12,7 +12,7 @@ const SubNavList = ({ open, SetState }) => {
             return (
               <div >
                 <ul
-                  className="bg-white shadow-md p-16 flex justify-center gap-8"
+                  className="bg-white shadow-md p-16 flex justify-center gap-8 z-10 fixed w-full"
                   key={index}
                 >
                   {category.items.map((item) => {
