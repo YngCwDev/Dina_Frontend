@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="md:px-[10%]">
       <div className="text-white p-[5%]  flex  justify-center ">
-        <div className="flex justify-center  md:flex-nowrap flex-wrap gap-44">
+        <div className="flex justify-center  md:flex-nowrap flex-wrap md:gap-32 gap-5 max-[368px]:gap-5">
           <div className="flex flex-col  pt-4 md:order-1 order-3">
             <img className="md:w-[200px] w-[100px]" src={LOGO} alt="" />
             <ul className="">
@@ -75,8 +75,8 @@ function Footer() {
               </ul>
             </ul>
           </div>
-          <div className="flex flex-col items-end pt-4 md:px-0 px-8 md:order-4 order-4">
-            <ul className="flex flex-col gap-2">
+          <div className="flex flex-col pt-4   md:order-4 order-4">
+            <ul className="flex flex-col md:gap-2">
               <li className="font-bold text-[1rem]">
                 <a href="">SOCIAL MEDIA</a>
               </li>
