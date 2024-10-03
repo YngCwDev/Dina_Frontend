@@ -10,7 +10,7 @@ const MobileMenu = ({ toggle }) => {
     setOpenCategories((prev) => ({ [categoryName]: !prev[categoryName] })); // Open and Close the submenu and Prevent two of the to be opened
   };
   useEffect(() => {
-    if (!toggle) {
+    if (toggle) {
       setOpenCategories({}); // Reset SubMenu
     }
   }, [toggle]);
@@ -33,7 +33,7 @@ const MobileMenu = ({ toggle }) => {
                   <ChevronDown
                     size={16}
                     strokeWidth={1}
-                    className="group-active/link:rotate-180 duration-200"
+                    className={`group-active/link:rotate-180 duration-200`}
                   />
                 </li>
 

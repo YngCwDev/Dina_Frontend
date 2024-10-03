@@ -3,7 +3,7 @@ import Hero from "./Home/Hero";
 import Discover from "./Home/Discover";
 import About from "./Home/About";
 import Form from "./Home/Form";
-import Footer from "./Home/Footer";
+import Footer from "./NavBar/Footer";
 import bgImg_1 from "./assets/bg-1.png";
 
 
